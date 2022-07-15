@@ -22,37 +22,37 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="container header-container">
+      <div class="container header__container">
         <!-- Navigation -->
         <nav class="nav-container">
-          <a class="logo" href="./index.html">
-            <span class="logo-color">Web</span>Studio</a
+          <a class="logo header__logo" href="./index.html">
+            <span class="logo__first-element">Web</span>Studio</a
           >
-          <ul class="nav-link-container">
-            <li class="link-item">
+          <ul class="nav">
+            <li class="nav-item">
               <a class="nav-link current" href="./index.html">Студия</a>
             </li>
-            <li class="link-item">
+            <li class="nav-item">
               <a class="nav-link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="link-item">
+            <li class="nav-item">
               <a class="nav-link" href="#Contacts">Контакты</a>
             </li>
           </ul>
         </nav>
         <!--Contacts-->
-        <ul class="head-contacts">
-          <li class="contacts-item">
-            <a class="contact-header" href="mailto:info@devstudio.com">
-              <svg class="icon-contact" width="16" height="12">
+        <ul class="contacts head__contacts">
+          <li class="contacts__item">
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contacts-item tel">
-            <a class="contact-header" href="tel:+380961111111"
-              ><svg class="icon-contact" width="10" height="16">
+          <li class="contacts__item tel">
+            <a class="contact__link" href="tel:+380961111111"
+              ><svg class="contact__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -497,10 +497,12 @@
     <footer>
       <div class="container footer-container">
         <div>
-          <a class="logo logo-footer" href="./index.html">
-            <span class="logo-color">Web</span
-            ><span class="logo-color-footer">Studio</span></a
+          <a class="logo footer__logo" href="./index.html">
+            <span class="logo__first-element">Web</span
+            ><span class="logo__second-element">Studio</span></a
           >
+
+          <!-- Footer Contacts -->
           <address id="Contacts">
             <ul>
               <li class="adress-item">
@@ -525,6 +527,8 @@
             </ul>
           </address>
         </div>
+
+        <!-- Footer social link -->
         <div class="social-link-bloc">
           <p class="social-link-title">Присоединяйтесь</p>
           <ul class="social-link-list footer">
@@ -578,6 +582,8 @@
             </li>
           </ul>
         </div>
+
+        <!-- Footer subscribe bloc -->
         <div class="subscribe-bloc">
           <p class="subscribe">Подпишитесь на рассылку</p>
           <form class="subscribe-form">
