@@ -71,6 +71,7 @@ img {
   height: auto;
 }
 
+/* Body */
 body {
   font-family: var(--main-font), sans-serif;
   color: var(--main-txt-color);
@@ -95,8 +96,6 @@ section {
 /* header */
 .header {
   border-bottom: 1px solid #ececec;
-  /* background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 .header .header__container {
   display: -webkit-box;
